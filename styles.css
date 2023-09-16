@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(to right, lightcoral, darkorange, olivedrab, hotpink);
+}
+h1 {
+    color: aliceblue;
+}
+p {
+    color: whitesmoke ;
+}
+table, th, td {
+    border: 1px dotted darkorange;
+}
+tr:nth-child(even) {
+    background-color: olivedrab;
+  }
+

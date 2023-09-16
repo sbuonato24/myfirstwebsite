@@ -1,11 +1,68 @@
 <html>
-<h1 style="background-color: tomato;">Learning HTML</h1>
-<body style="background-color: tomato;">
+    <head>
+        <!-- <style>
+            body {background-color: salmon;}
+            h1 {color: antiquewhite;}
+            p {color: forestgreen;}
+        </style> -->
+        <link rel="stylesheet" href="styles.css">
+        <title>My Page Title</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico"
+    </head>
+<h1 style="background-color: lightskyblue;">Learning HTML</h1>
+<body style="background-color: peachpuff;">
     <h1>My first HTML page</h1>
     <p>by Sam</p>
     <a href="https://en.wikipedia.org/wiki/Bacon">link</a>
     <p><em><mark>I am so excited to learn website development this semester</mark></em></p>
     <!-- emphasized and highlighted -->
-
+    <img src="summerimage.jpeg" alt="picture of beach I go to" width="104" height="142">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Genre</th>
+            <th># of Episodes</th>
+        </tr>
+        <tr>
+            <td>Psych</td>
+            <td>Comedy</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>The Office</td>
+            <td>Comedy</td>
+            <td>201</td>
+        </tr>
+        <tr>
+            <td>Suits</td>
+            <td>Legal Drama</td>
+            <td>134</td>
+        </tr>
+    </table>
+    <ul>
+        <dl>Grocery List</dl>
+        <li>Cliff Bars</li>
+        <li>Vitamin Water</li>
+        <li>Bacon</li>
+        <li>Twix Bars</li>
+    </ul>
+    <form>
+        <label for="cname">Class Name:</label><br>
+        <input type="text" id="cname" name="cname"><br>
+        <label for="tname">Teacher Name:</label><br>
+        <input type="text" id="tname" name="tname">
+        <br>
+        <label for="subjects">Choose a subject:</label>
+<select name="subject" id="subjects">
+  <option value="history">History</option>
+  <option value="math">Math</option>
+  <option value="science">Science</option>
+  <option value="english">English</option>
+</select>
+<br>
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+      </form>
 </body>
  </html>
